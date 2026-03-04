@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600&family=Source+Sans+3:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 30% 8%;
+    --foreground: 200 20% 88%;
+
+    --card: 210 28% 12%;
+    --card-foreground: 200 20% 88%;
+
+    --popover: 210 28% 12%;
+    --popover-foreground: 200 20% 88%;
+
+    --primary: 175 45% 45%;
+    --primary-foreground: 210 30% 8%;
+
+    --secondary: 210 25% 18%;
+    --secondary-foreground: 200 20% 80%;
+
+    --muted: 210 20% 15%;
+    --muted-foreground: 200 15% 55%;
+
+    --accent: 35 70% 55%;
+    --accent-foreground: 210 30% 8%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 210 20% 18%;
+    --input: 210 20% 18%;
+    --ring: 175 45% 45%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 210 28% 10%;
+    --sidebar-foreground: 200 20% 88%;
+    --sidebar-primary: 175 45% 45%;
+    --sidebar-primary-foreground: 210 30% 8%;
+    --sidebar-accent: 210 25% 18%;
+    --sidebar-accent-foreground: 200 20% 80%;
+    --sidebar-border: 210 20% 18%;
+    --sidebar-ring: 175 45% 45%;
+
+    --font-display: 'Playfair Display', serif;
+    --font-body: 'Source Sans 3', sans-serif;
+
+    --gradient-fog: linear-gradient(180deg, hsla(210, 30%, 8%, 0) 0%, hsla(210, 30%, 8%, 0.85) 60%, hsl(210, 30%, 8%) 100%);
+    --gradient-ocean: linear-gradient(135deg, hsl(210, 30%, 8%) 0%, hsl(200, 35%, 12%) 50%, hsl(175, 25%, 15%) 100%);
+    --shadow-glow: 0 0 30px -5px hsla(175, 45%, 45%, 0.3);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+}
