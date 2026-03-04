@@ -9,7 +9,7 @@ const FooterSection = () => {
           “Dá um peixe a um homem e ele come por um dia. Ensina-o a pescar e nunca mais o vês aos fins de semana.”
         </p>
         <p className="font-body text-xs uppercase tracking-widest text-muted-foreground/60">
-          © 2026 O Pescador Anónimo · Todos os direitos reservados
+          © 2026 O Pescador Anónimo Filipe Amorim · Todos os direitos reservados
         </p>
       </div>
     </footer>
