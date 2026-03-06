@@ -26,7 +26,7 @@ const HeroSection = () => {
             <span className="italic text-primary">Anónimos</span>
           </h1>
           <p className="mx-auto mt-6 max-w-lg font-body text-lg font-light text-muted-foreground sm:text-xl">
-            Onde a água guarda os teus segredos e a captura conta a tua história.
+            Onde a água guarda os teus segredos e captura a tua história.
           </p>
         </motion.div>
         <motion.div
